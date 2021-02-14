@@ -1,0 +1,38 @@
+a:link, a:visited, a:hover, a:active {
+    color: black;
+  }
+ul {
+    list-style: none;
+}
+.header{
+    height: 60px;
+   
+}
+.header-title h2{
+    float: left;
+    font-family: 'Book Antiqua';
+    padding: 10px 30px;
+}
+.header-menu-list {
+    display: flex;
+    float: right;
+    padding: 15px 55px;
+   
+}
+.header-menu-list li{
+    padding-left: 20px;
+    font-family: 'Book Antiqua';
+}
+.header-menu-list li a{
+    text-decoration: none;
+}
+.header-icon {
+    display: flex;
+}
+.profile-part {
+    background-image: url("/images/coffee_profile.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width:100%;                              /* 横幅のサイズを指定    */
+    height:400px;
+}
